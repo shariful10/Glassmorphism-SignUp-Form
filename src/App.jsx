@@ -5,6 +5,7 @@ const App = () => {
 	return (
 		<MainContainer className="text-7xl font-bold">
 			<WelcomeText>Welcome</WelcomeText>
+			
 		</MainContainer>
 	);
 };
