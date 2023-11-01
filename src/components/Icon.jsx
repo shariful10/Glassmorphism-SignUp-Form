@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export default function Icon({ color, children }) {
+export const Icon = ({ color, children }) => {
 	return <StyledIcon background={color}>{children}</StyledIcon>;
-}
+};
 
 const StyledIcon = styled.div`
 	height: 3.5rem;
