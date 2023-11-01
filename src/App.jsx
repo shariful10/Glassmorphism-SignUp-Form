@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import Input from "./components/Input";
 
 const App = () => {
 	return (
 		<MainContainer className="text-7xl font-bold">
 			<WelcomeText>Welcome</WelcomeText>
-			
+			<InputContainer>
+				<Input type="text" placeholder="Email" />
+				<Input type="password" placeholder="Password" />
+			</InputContainer>
 		</MainContainer>
 	);
 };
